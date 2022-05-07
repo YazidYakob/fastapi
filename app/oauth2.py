@@ -40,6 +40,7 @@ def verify_access_token(token: str, credentials_exception):
         print(e)
         raise credentials_exception
 
+
     return token_data
 
 
